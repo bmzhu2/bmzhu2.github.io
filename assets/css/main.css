@@ -2782,6 +2782,10 @@ input, select, textarea {
 		text-align: center;
 		padding: 3.5em 0;
 	}
+		#cta header {
+			display: flex;
+			flex-direction: column;
+		}
 
 		#cta header h2 {
 			display: inline-block;
