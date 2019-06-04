@@ -33,7 +33,7 @@ const showModal = index => {
       document.getElementById('modal-intro').innerText = 'StrifeCloud is a pixel perfect clone of SoundCloud, the popular music streaming and sharing app, with a Final Fantasy theme. It retains most core features of the original app. Features include:'
       document.getElementById('modal-live-link').href = 'https://strife-cloud.herokuapp.com'
       document.getElementById('modal-github-link').href = 'https://github.com/bmzhu2/StrifeCloud'
-      document.getElementById('modal-preview').src = 'images/spellcast-large.gif'
+      document.getElementById('modal-preview').src = 'images/strifeclouddemo.gif'
       
       feat1.innerText = 'User authentication with secure passwords using BCrypt hashing and salting'
       features.appendChild(feat1);
@@ -51,6 +51,7 @@ const showModal = index => {
       document.getElementById('modal-intro').innerText = 'Pokenalysis provides a social way to build, share, and analyze Pokemon teams. Features include:'
       document.getElementById('modal-live-link').href = 'https://pokenalysis.herokuapp.com'
       document.getElementById('modal-github-link').href = 'https://github.com/bmzhu2/Pokenalysis'
+      document.getElementById('modal-preview').src = 'images/pokenalysisdemo.gif'
 
       feat1.innerText = 'User authentication with secure passwords using BCrypt hashing and salting'
       features.appendChild(feat1);

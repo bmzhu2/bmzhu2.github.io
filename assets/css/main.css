@@ -2522,7 +2522,7 @@ input, select, textarea {
 		bottom: 0;
 		right: 0;
 		left: 0;
-		transition: background-color 400ms;
+		transition: background-color 500ms;
 		background: rgba(235, 235, 235, 0.8);
 		z-index: 10;
 	}
@@ -2546,6 +2546,11 @@ input, select, textarea {
 			#modal-child #modal-name {
 				text-align: center;
 				font-size: 2em;
+			}
+
+			#modal-child #modal-preview {
+				display: block;
+				margin: 0 auto;
 			}
 
 			#modal-child #modal-links {
