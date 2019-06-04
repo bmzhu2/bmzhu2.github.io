@@ -2514,6 +2514,47 @@ input, select, textarea {
 			margin: 0;
 		}
 
+/* Modal */
+
+	#modal {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background: rgba(235, 235, 235, 0.8);
+		z-index: 10;
+	}
+
+	#modal.hidden {
+		visibility: hidden;
+	}
+
+	  #modal #modal-child {
+			position: absolute;
+			top: 50%;
+			left: 50vw;
+			transform: translate(-50%, -52%);
+
+			background: white;
+			width: 70%;
+			padding: 1vw 4vw;
+		}
+
+			#modal-child #modal-name {
+				text-align: center;
+				font-size: 2em;
+			}
+
+			#modal-child #modal-links {
+				display: flex;
+				justify-content: center;
+			}
+
+				#modal-child #modal-links a {
+					margin: 2vw;
+				}
+
 /* Header */
 
 	#header {
