@@ -33,6 +33,7 @@ const showModal = index => {
       document.getElementById('modal-intro').innerText = 'StrifeCloud is a pixel perfect clone of SoundCloud, the popular music streaming and sharing app, with a Final Fantasy theme. It retains most core features of the original app. Features include:'
       document.getElementById('modal-live-link').href = 'https://strife-cloud.herokuapp.com'
       document.getElementById('modal-github-link').href = 'https://github.com/bmzhu2/StrifeCloud'
+      document.getElementById('modal-preview').src = 'images/spellcast-large.gif'
       
       feat1.innerText = 'User authentication with secure passwords using BCrypt hashing and salting'
       features.appendChild(feat1);
@@ -65,6 +66,9 @@ const showModal = index => {
     case 2:
       document.getElementById('modal-name').innerText = 'Elemental Invoker'
       document.getElementById('modal-intro').innerText = 'Elemental Invoker is a puzzle and board game where you match up elemental orbs and cast devastating spells. Features include:'
+      document.getElementById('modal-live-link').href = 'https://bmzhu2.github.io/Elemental-Invoker'
+      document.getElementById('modal-github-link').href = 'https://github.com/bmzhu2/Elemental-Invoker'
+      document.getElementById('modal-preview').src = 'images/spellcast-large.gif'
 
       feat1.innerText = 'Slide pieces on the board to create formations'
       features.appendChild(feat1);
@@ -72,9 +76,6 @@ const showModal = index => {
       features.appendChild(feat2);
       feat3.innerText = 'Keep track of your points and combo at the top'
       features.appendChild(feat3);
-
-      document.getElementById('modal-live-link').href = 'https://bmzhu2.github.io/Elemental-Invoker'
-      document.getElementById('modal-github-link').href = 'https://github.com/bmzhu2/Elemental-Invoker'
       break;
     default:
       break;
